@@ -1,18 +1,13 @@
 {
   "name": "vision-ai-server",
   "version": "1.0.0",
-  "description": "OpenAI-compatible Vision AI Server powered by Gemini via OpenRouter",
+  "description": "VISION AI Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.21.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "node-fetch": "^2.7.0"
-  },
-  "engines": {
-    "node": ">=18"
+    "express": "^4.21.2"
   }
 }
